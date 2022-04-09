@@ -1,0 +1,29 @@
+{
+    "name": "portfolio-web",
+    "version": "1.0.0",
+    "description": "Portfolio Bootstrap 5",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "sass --watch scss:assets/css"
+    },
+    "keywords": [
+        "bootstrap",
+        "html",
+        "css",
+        "scss",
+        "sass",
+        "learn"
+    ],
+    "author": "Haikal",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.49.9"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.1.1",
+        "autoprefixer": "^10.4.4",
+        "bootstrap": "^5.1.3",
+        "postcss": "^8.4.12",
+        "postcss-cli": "^9.1.0"
+    }
+}
